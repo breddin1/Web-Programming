@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Brayden Reddin">
+    <title>Park University's Clock Tower</title>
+    <style>
+        header{text-align: center;}
+        .table{display: table;}
+        .cell{display: table-cell;}
+        nav.cell{width: 80px;}
+        .cell > :nth-child(1){margin-top: 0;}
+        nav{
+            color: darkred;
+            background-color: lemonchiffon;
+        }
+        .nav-heading{background-color: gold;}
+        a{
+            text-decoration: none;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        a:hover{color: blue; text-decoration: underline;}
+        nav a{font-size: .8em;}
+        nav a{cursor: not-allowed;}
+        nav > *{margin: 1em 0;}
+    </style>
+</head>
+<body>
+    <header>
+        <h1 id="top">Park University's Clock Tower</h1>
+        <h5>
+            <a href="#tower-photo">Clock Tower Photography</a> &nbsp; | &nbsp;
+            <a href="#pledge-drive">Pledge Drive</a>
+        </h5>
+    </header>
+
+    <div class="table">
+        <nav class="cell">
+            <div class="nav-heading">Other Park History</div>
+            <div><a href="www.bing.com">Swimming Pool</a></div>
+            <div><a href="">Herr House Ghosts</a></div>
+            <div><a href="">Old Kate</a></div>
+            <div><a href="">Zombie Bloodbath</a></div>
+        </nav>
+        <section class="cell">
+            <p>
+                The Clock tower has a long and storied history.
+                Built in 800 A.D. by the ancient Parkite Indian tribe, 
+                it was originally used as a beacon for late-night
+                buffalo-tipping parties.
+                In 1865, because of its extraordinary time-keeping accuracy,
+                iot served as the world's first Coordinated Universal Time clock.
+            </p>
+            <p>
+                <img id="tower-photo" src="clockTower.jpg" alt="Clock Tower Photograph">
+            </p>
+            <h3 id="pledge-drive">Pledge Drive</h3>
+            <p>
+                The clock tower building is crumbling.
+                Park needs your support. Do it for the kids.
+                Send cash contributions to sam.morgan@park.edu.
+            </p>
+            <a href="#top">Back to top</a>
+        </section>
+    </div>
+</body>
+</html>
